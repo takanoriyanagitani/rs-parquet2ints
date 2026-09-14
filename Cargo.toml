@@ -3,7 +3,15 @@ name = "rs-parquet2ints"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts the int column to raw binary integers."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-parquet2ints"
+homepage = "https://github.com/takanoriyanagitani/rs-parquet2ints"
+documentation = "https://docs.rs/rs-parquet2ints/latest"
+keywords = ["parquet", "arrow", "integer", "binary", "endian"]
+
 exclude = [
+  "sample.d/input.parquet",
 ]
 
 [lints.rust]
